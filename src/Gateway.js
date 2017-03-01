@@ -9,7 +9,7 @@ export default class Gateway extends React.Component {
   static propTypes = {
     into: React.PropTypes.string.isRequired,
     children: React.PropTypes.oneOfType([
-      React.PropTypes.element,
+      React.PropTypes.node,
       React.PropTypes.string
     ])
   };
